@@ -45,6 +45,7 @@ span {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right 0% bottom 0%;
+    margin-bottom: 100px;
 }
 
 .dreamBig-content {
@@ -67,4 +68,40 @@ span {
     text-transform: uppercase;
     font-weight: bold;
     font-size: 14px;
+}
+
+.experiences {
+    margin-bottom: 100px;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left 0% bottom 15%;
+}
+
+.experiencecontent {
+    display: flex;
+}
+
+.experiencecontent h1 {
+    padding-left: 10px;
+}
+
+.experience-content {
+    width: 50%;
+    box-shadow: 1px 5px 20px rgb(194, 172, 172);
+    padding: 50px 50px;
+    margin: 0px 30px;
+    border-radius: 3px;
+    border-width: 5px;
+    border-style: solid;
+    border-image: linear-gradient(to bottom, rgb(255, 72, 0), rgba(0, 0, 0, 0)) 1 100%;
+}
+
+.experience-content h4 {
+    color: orange;
+}
+
+#experience-item {
+    border-width: 5px;
+    border-style: solid;
+    border-image: linear-gradient(to bottom, rgb(0, 81, 255), rgba(0, 0, 0, 0)) 1 100%;
 }
