@@ -1,0 +1,41 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+span {
+    color: orange;
+}
+
+.header {
+    display: flex;
+}
+
+.header-content {
+    width: 50%;
+    padding-left: 5%;
+}
+
+.header-content img {
+    width: 70%;
+    padding: 50px 50px;
+}
+
+.header-content a {
+    color: #fff;
+    background-image: linear-gradient(orange, tomato);
+    padding: 8px 30px;
+    text-decoration: none;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+}
