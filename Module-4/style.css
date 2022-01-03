@@ -39,3 +39,32 @@ span {
     font-weight: bold;
     font-size: 14px;
 }
+
+.dream-big {
+    display: flex;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right 0% bottom 0%;
+}
+
+.dreamBig-content {
+    width: 50%;
+    padding-left: 5%;
+    margin-top: 50px;
+}
+
+.dreamBig-content img {
+    width: 70%;
+    padding: 30px 50px;
+}
+
+.dreamBig-content a {
+    color: #fff;
+    background-image: linear-gradient(orange, tomato);
+    padding: 8px 30px;
+    text-decoration: none;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+}
