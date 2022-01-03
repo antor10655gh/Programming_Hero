@@ -77,12 +77,12 @@ span {
     background-position: left 0% bottom 15%;
 }
 
-.experiencecontent {
-    display: flex;
+.experiences h1 {
+    padding-left: 30px;
 }
 
-.experiencecontent h1 {
-    padding-left: 10px;
+.experiencecontent {
+    display: flex;
 }
 
 .experience-content {
